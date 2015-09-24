@@ -1,0 +1,16 @@
+<resources>
+
+    <color name="actionbarbackground">#1976D2</color>
+    <color name="myPrimaryDarkColor">#3F51B5</color>
+    <color name="myAccentColor">#90CAF9</color>
+    <color name="myWindowBackground">#FFFFFF</color>
+    <color name="myTextPrimaryColor">#FFFFFF</color>
+    <color name="myNavigationColor">#000000</color>
+    <color name="selection">#ebeded</color>
+    <color name="app_color">#ff5722</color>
+    <color name="app_color_selected">#FF7F50</color>
+    <color name="grey">#A0A0A0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+</resources>

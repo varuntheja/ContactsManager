@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/toolbar_actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/toolbar_default" />
+
+    <EditText
+        android:id="@+id/contact_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Name"
+        android:textCursorDrawable="@drawable/cursor"
+        android:inputType="textCapWords"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/grey" />
+
+    <TextView
+        android:id="@+id/contact_name_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="Please provide contact name"
+        android:textColor="#FF0000"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/contact_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Email"
+        android:textCursorDrawable="@drawable/cursor"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/grey" />
+
+    <TextView
+        android:id="@+id/contact_email_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="Please provide valid email id"
+        android:textColor="#FF0000"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/contact_telephone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Phone"
+        android:textCursorDrawable="@drawable/cursor"
+        android:inputType="phone"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/grey" />
+
+    <TextView
+        android:id="@+id/contact_telephone_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="Please provide valid phone number"
+        android:textColor="#FF0000"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/crate_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="Create"
+        android:textSize="18sp"
+        android:background="@drawable/login_btn_selector" 
+        android:textColor="@drawable/white_to_black_text"/>
+
+</LinearLayout>

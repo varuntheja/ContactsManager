@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:appcompat="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MaterialMainActivity" >
+
+    <item
+        android:id="@+id/create"
+        android:icon="@drawable/add_contact"
+        android:orderInCategory="100"
+        android:title="Create Contact"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/menu_search"
+        android:title="Search"
+        appcompat:actionViewClass="android.support.v7.widget.SearchView"
+        appcompat:showAsAction="always">
+    </item>
+
+</menu>
